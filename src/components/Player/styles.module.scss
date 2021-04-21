@@ -1,6 +1,6 @@
 .playerContainer {
     padding: 3rem 4rem;
-    width: 36.5rem;
+    width: 26.5rem;
     height: 100vh;
 
     background: var(--purple-500);
@@ -79,7 +79,7 @@
 
     button {
         background: transparent;
-        bordeR: 0;
+        border: 0;
         font-size: 0;
 
         &.playButton {
