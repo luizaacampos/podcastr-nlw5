@@ -62,8 +62,8 @@ export default function Episode({ episode }: EpisodeProps) {
 
 export const getStaticPaths: GetStaticPaths = async () => {
     return {
-        paths: [],
-        fallback: 'blocking'
+        paths: [], // com array vazio não gerará nenhuma página de forma estática
+        fallback: 'blocking' // false: 404, true: cria página pelo lado do browser, blocking: só vai pra pág depois de o conteudo ser carregado pela camada do next
     }
 }
 
