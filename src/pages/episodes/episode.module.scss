@@ -93,3 +93,40 @@
         }
     }
 }
+
+
+@media (max-width: 768px) {
+    .episode {
+        .thumbnailContainer {
+
+            button {
+    
+                &:first-child {
+                    left: 15%;
+                }
+                
+                &:last-child {
+                    right: 15%;
+                }
+            }
+        }
+    }  
+}
+
+@media (max-width: 540px) {
+    .episode {
+        .thumbnailContainer {
+
+            button {
+    
+                &:first-child {
+                    left: 0;
+                }
+                
+                &:last-child {
+                    right: 0;
+                }
+            }
+        }
+    }  
+}

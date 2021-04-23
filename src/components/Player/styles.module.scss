@@ -136,3 +136,58 @@
         }
     }
 }
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .playerContainer {
+        padding: 1rem;
+        width: 100vw;
+        height: 6.5rem;
+
+        display: block;
+
+        header {
+            display: none;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+            height: 4rem;
+        }
+    }
+
+    .currentEpisode, .emptyPlayer {
+        display: none;
+    }
+
+    .progress {
+        
+        .slider {
+            
+            .emptySlider {
+                width: 50%;
+                height: 4px;
+            }
+        }
+    }
+    
+    .buttons {
+        margin-top: 0;
+        gap: 0.5rem;
+        
+        button {
+    
+            &.playButton {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+}
