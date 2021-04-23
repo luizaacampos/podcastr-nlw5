@@ -7,7 +7,7 @@ import ptBR from 'date-fns/locale/pt-BR'
 import { api } from "../services/api"
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString"
 
-import styles from './home.module.scss'
+import styles from '../styles/home.module.scss'
 import { usePlayer } from "../contexts/PlayerContext"
 
 type Episode = {
