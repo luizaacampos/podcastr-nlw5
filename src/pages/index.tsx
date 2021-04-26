@@ -66,7 +66,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
           <thead>
             <tr>
               <th>Podcast</th>
-              <th className={styles.off}>Integrantes</th>
+              <th className={styles.off40}>Integrantes</th>
               <th className={styles.off}>Data</th>
               <th className={styles.off}>Duração</th>
               <th></th>
@@ -81,7 +81,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                       <a>{episode.title}</a>
                     </Link>
                   </td>
-                  <td className={styles.off}>{episode.members}</td>
+                  <td className={styles.off40}>{episode.members}</td>
                   <td style={{ width: 100 }} className={styles.off}>{episode.publishedAt}</td>
                   <td className={styles.off}>{episode.durationAsString}</td>
                   <td>

@@ -179,6 +179,12 @@
     
 }
 
+@media (max-width: 550px) {
+    .off40 {
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
     .homePage {
         width: 100%;
@@ -206,7 +212,6 @@
         }
         
         .allEpisodes {
-            width: 90%;
             
             table {
             
@@ -215,7 +220,7 @@
                 }
                 
                 .tdTitle {
-                    width: 70%;
+                    width: 80%;
                 }
             }
         }

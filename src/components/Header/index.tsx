@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import format from 'date-fns/format'
 import ptBR from 'date-fns/locale/pt-BR'
 
@@ -9,7 +10,11 @@ export function Header() {
     })
     return (
         <header className={styles.headerContainer}>
-            <img src='/logo.svg' alt="podcastr" />
+            <Link href="/">
+                <a>
+                    <img src='/logo.svg' alt="podcastr" />
+                </a>
+            </Link>
             <p className={styles.slogan}>O melhor para você ouvir, sempre</p>
             <span>{currentDate}</span>
         </header>
