@@ -30,8 +30,8 @@
 </p>
 
 <p>
- <img margin="10px" src="./public/mobile1.png" />
- <img margin="10px" src="./public/mobile2.png" />
+ <img margin="10px" src="./public/screen-mobile1.png" />
+ <img margin="10px" src="./public/screen-mobile2.png" />
 </p>
 
 <h2 id="comousar">⚒️ Como usar</h2>
