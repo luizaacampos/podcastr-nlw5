@@ -24,9 +24,14 @@
 
 <h2 id="demonstracao">🖱 Demonstração</h2>
 
-<p>'
-  <img width="45%" src="./public/screen1.png" />
-  <img width="45%" src="./public/screen2.png" />
+<p>
+  <img width="80%" margin="10px" src="./public/screen1.png" />
+  <img width="80%" margin="10px" src="./public/screen2.png" />
+</p>
+
+<p>
+ <img margin="10px" src="./public/mobile1.png" />
+ <img margin="10px" src="./public/mobile2.png" />
 </p>
 
 <h2 id="comousar">⚒️ Como usar</h2>
