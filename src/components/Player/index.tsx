@@ -90,6 +90,7 @@ export function Player() {
             ) }
 
             <footer className={!episode ? styles.empty : ''}>
+                    {episode && <p className={styles.mobileTitle}>Tocando agora: {episode.title}</p>}
                 <div className={styles.progress}>
                     <span>{convertDurationToTimeString(progress)}</span>
                     <div className={styles.slider}>

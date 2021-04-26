@@ -162,12 +162,13 @@
 
 @media (max-width: 768px) {
     .homePage {
-        height: calc(100vh - 13rem);
-        overflow-y: scroll;
+        height: calc(100vh - 14rem);
 
         .latestEpisodes {
             ul {
-                display: block;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
                 li {
                     width: 500px;
@@ -175,8 +176,12 @@
                 }
             }
         }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
     }
-    
 }
 
 @media (max-width: 550px) {
@@ -189,45 +194,45 @@
     .homePage {
         width: 100%;
         padding: 0 1rem;
+    
 
-    .latestEpisodes {
-        ul {
-            width: 100%;
-            li {
-                width: 70%;
-                
-                
-                .episodeDetails {
-                    
-                    a {
-                        max-width: 60%;                    }
+        .latestEpisodes {
+            ul {
+                width: 100%;
+                li {
+                    width: 70%;
                         
+                    .episodeDetails {
+                            
+                        a {
+                            max-width: 60%;                    }
+                        }
+                                
                         p {
                             max-width: 50%;
                         }
+                            
                     }
-                    
                 }
             }
         }
-        
+            
         .allEpisodes {
-            
+                
             table {
-            
+                
                 th, td {
                     padding: 0.75rem 0.5rem;
                 }
-                
+                    
                 .tdTitle {
                     width: 80%;
                 }
             }
         }
-        
+            
         .off {
             display: none;
-        }
-    }
+        }  
+      
 }
-     

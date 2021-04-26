@@ -19,13 +19,14 @@
 
 <p>
   A aplicação foi desenvolvida durante a trilha React.js da Next Level Week #5 promovida pela Rocketseat. 🚀 
+  Após o término da NLW, por conta própria, deixei a aplicação responsiva e arrumei alguns detalhes do estilo, principalmente nas imagens.
 </p>
 
 <h2 id="demonstracao">🖱 Demonstração</h2>
 
-<p>
-  <img src="./public/screen1.png" />
-  <img src="./public/screen2.png" />
+<p>'
+  <img width="45%" src="./public/screen1.png" />
+  <img width="45%" src="./public/screen2.png" />
 </p>
 
 <h2 id="comousar">⚒️ Como usar</h2>
