@@ -167,11 +167,23 @@
             height: 6rem;
 
             .mobileTitle {
-                display: block;
-                width: 90%;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
+                display: inline-block;
+                width: max-content;
+                margin-bottom: 0.5rem;
+                animation: marquee 15s linear infinite alternate;
+            }
+
+            @keyframes marquee {
+                0% {
+                    -moz-transform: translateX(50%);
+                    -webkit-transform: translateX(50%);
+                    transform: translateX(50%);
+                }
+                100% {
+                    -moz-transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                }
             }
         }
     }
@@ -196,7 +208,7 @@
     }
     
     .buttons {
-        margin-top: 0;
+        margin: 0.25rem 0;
         
         button {
             &.playButton {
