@@ -2,7 +2,7 @@
 
 <p><img  alt="Version"  src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></p>
 
-### 🏠 [Veja aqui a aplicação em ação!]()
+### 🏠 [Veja aqui a aplicação em ação!](https://podcastr-nlw5-pink.vercel.app/)
 
 > 🎧 Podcastr - O melhor para você ouvir, sempre
 
